@@ -8,8 +8,8 @@ no.addEventListener('mouseover', function () {
     no.style.top = `${Math.ceil(Math.random() * 90)}%`;
 });
 no.addEventListener('click', function () {
-    alert("You weren't supposed to say no...")
-    // location.href = "https://lolajamesw.github.io/Valentines2025/no"
+    // alert("You weren't supposed to say no...")
+    location.href = "https://lolajamesw.github.io/Valentines2025/no"
 })
 
 const yes = document.getElementById('yes');
